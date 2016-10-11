@@ -1,0 +1,45 @@
+Funktionelle krav
+F(1)  Spillerne skal starte med en balance på 1000 (UDDYB ENHED)
+F(2)  Spillet skal slutte når en spiller har 3000 (UDDYB ENHED)
+F(3)  Spillet skal simulere kast af 2 terninger
+F(4)  Spillet skal indeholde felter nummereret fra 2-12.
+F(5)          	Felterne skal udløse en speciel effekt på spillerens balance
+F(1)  Feltliste (UDDYB)
+F(2)  Felterne skal printe en besked når spilleren lander derpå
+F(6)  
+Nonfunktionelle krav
+NF(1)               Spillet skal spilles af to spillere
+NF(2)               Spillet skal let kunne oversættes til andre sprog (UDDYB)
+NF(3)               Spillet skal kunne spilles på DTU’s databarer
+NF(4)               Spillet skal ikke indeholde bemærkelsesværdige forsinkelser (UDDYB - LAG)
+NF(5)               Spillet skal let kunne skifte mellem forskelligt øjede terninger  (UDDYB - HJÆLPELÆRER)
+ 
+ 
+Spørgsmål
+-          Nulstilles spillerens placering (skal systemet gemme spillerens placering)
+-          Grafisk repræsentation af spillet / felterne eller TUI
+-          Skal hvert felt have et specielt billede til repræsentation.
+-          Stopper spillet når en spiller har fået 3000
+-          Definer balance enhed (guld mønter etc.)
+-          Flere tekster til samme felt?
+-          Danske navne på felter
+-          Meny (options) Ændre sprog
+-          Hvilke sprog? (antal)
+-          Skal sprogene være der i forvejen?
+-          Skal nye udviklere selv kunne definere sprog
+-          Reset button (tilbage til engelsk)
+-          Definer ændring sprog (begræns)
+-          Terninger, hvor mange øjne?
+-          Ændring af rækkefølge på felter (1 tur Tower nr. 1.  anden tur Tower nr 7) eller før selve spillet starter
+-          Felters effekt (ændring)
+-          Negativ balance
+-          Effekt når balance = 0 (boost eller negativ effekt, stå en tur over)
+-          Speciel effekt på ”Werewall” når det er fuldmåne
+-          Tekst til slag af terninger (to 6’ere - ”Du har massere af energi til at bevæge dig i dag)
+-          Skal spilleren vælge imellem forskellige personer med beskrivelser
+-          Forskellige beskriver så ved tårnet’
+§  Wizard
+·         Du er ankommet til en kollega - modtag 250
+§  Warrior
+·         Du har slået den onde wizard ihjel - modtag 250
+-          Jævn fordeling af chance for at lande på felter?
